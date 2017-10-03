@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.charis_united.lmd.cac16" >
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <service android:name=".MainActivity$MyFirebaseMessagingService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".MainActivity$FirebaseIDService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Details_Activity.ABIODUN_KEHINDE_DAVID"
+            android:label="@string/title_activity_abiodun__kehinde__david"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.ADEGBOYEGA"
+            android:label="@string/title_activity_adegboyeg"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.ADELEYE"
+            android:label="@string/title_activity_adeleye"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.ADENIJI_ADEDOYIN"
+            android:label="@string/title_activity_adeniji__adedoyin"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.ADENIJI_STEPHEN"
+            android:label="@string/title_activity_adeniji__stephen"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.ADEOBA_OPEYEMI"
+            android:label="@string/title_activity_adeoba__opeyemi"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.ADEOLA_DAMILOLA"
+            android:label="@string/title_activity_adeola__damilol"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.ADEOTI"
+            android:label="@string/title_activity_adeoti"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.ADESUGBA_ADEJOKE"
+            android:label="@string/title_activity_adesugba__adejoke"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.ADEYELU"
+            android:label="@string/title_activity_adeyelu"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.ADEYEYE"
+            android:label="@string/title_activity_adeyeye"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.ADULOJU"
+            android:label="@string/title_activity_aduloju"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.AFOWOWE"
+            android:label="@string/title_activity_afowowe"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.AGBOOLA"
+            android:label="@string/title_activity_agbool"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.AJAKAYE"
+            android:label="@string/title_activity_ajakaye"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.AJAO"
+            android:label="@string/title_activity_ajao"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.AJAO_IDOWU"
+            android:label="@string/title_activity_ajao__idowu"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.AJEIGBE"
+            android:label="@string/title_activity_ajeigbe"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.AKEJU"
+            android:label="@string/title_activity_akeju"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.AKINBUSOLA"
+            android:label="@string/title_activity_akinbusol"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.AKINDE"
+            android:label="@string/title_activity_akinde"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.AKINLABI"
+            android:label="@string/title_activity_akinlabi"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.AKINWALE"
+            android:label="@string/title_activity_akinwale"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.AKINYELE"
+            android:label="@string/title_activity_akinyele"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.AKOMOLAFE"
+            android:label="@string/title_activity_akomolafe"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.ALADEGBAMI"
+            android:label="@string/title_activity_aladegbami"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.ALADEYELU"
+            android:label="@string/title_activity_aladeyelu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Details_Activity.ALEBIOWU"
+            android:label="@string/title_activity_alebiowu"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.APALARA"
+            android:label="@string/title_activity_apalar"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.APATA"
+            android:label="@string/title_activity_apat"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.ASAOLU"
+            android:label="@string/title_activity_asaolu"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.ASOGBON"
+            android:label="@string/title_activity_asogbon"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.AWE"
+            android:label="@string/title_activity_awe"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.AWOBUSUYI"
+            android:label="@string/title_activity_awobusuyi"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.AWODELE"
+            android:label="@string/title_activity_awodele"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.AWONUSI"
+            android:label="@string/title_activity_awonusi"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.BABALOLA"
+            android:label="@string/title_activity_babalol"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.BAMISAYE"
+            android:label="@string/title_activity_bamisaye"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.DADA"
+            android:label="@string/title_activity_dad"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.DARAMOLA"
+            android:label="@string/title_activity_daramol"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.EGBEDEYI"
+            android:label="@string/title_activity_egbedeyi"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.EHINFUNJOWO"
+            android:label="@string/title_activity_ehinfunjowo"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.ELEHINAFE"
+            android:label="@string/title_activity_elehinafe"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.ELUFOWOJU"
+            android:label="@string/title_activity_elufowoju"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.ESOSE"
+            android:label="@string/title_activity_esose"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.FADODUN"
+            android:label="@string/title_activity_fadodun"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.FALODUN"
+            android:label="@string/title_activity_falodun"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.FAMILUSI"
+            android:label="@string/title_activity_familusi"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.FASANYA"
+            android:label="@string/title_activity_fasany"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.FATOYINBO"
+            android:label="@string/title_activity_fatoyinbo"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.FATOYINBO_OPEYEMI"
+            android:label="@string/title_activity_fatoyinbo__opeyemi"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.FOLORUNSO"
+            android:label="@string/title_activity_folorunso"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.GBAJUOLA"
+            android:label="@string/title_activity_gbajuol"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Details_Activity.GEORGE"
+            android:label="@string/title_activity_george"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.IGE"
+            android:label="@string/title_activity_ige"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.ILUMOKA"
+            android:label="@string/title_activity_ilumok"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.IYUN"
+            android:label="@string/title_activity_iyun"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.KOLAWOLE"
+            android:label="@string/title_activity_kolawole"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.LIBAMOYO"
+            android:label="@string/title_activity_libamoyo"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.MABIGUN"
+            android:label="@string/title_activity_mabigun"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.MOGAJI"
+            android:label="@string/title_activity_mogaji"
+            android:parentActivityName=".Details_Activity.MABIGUN"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.Details_Activity.MABIGUN" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.ODEBUNMI"
+            android:label="@string/title_activity_odebunmi"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.ODEYINKA"
+            android:label="@string/title_activity_odeyink"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.OGBIYE"
+            android:label="@string/title_activity_ogbiye"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.OGUNDELE"
+            android:label="@string/title_activity_ogundele"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.OGUNDINIYI"
+            android:label="@string/title_activity_ogundiniyi"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.OGUNGBADE"
+            android:label="@string/title_activity_ogungbade"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.OGUNMOYIN"
+            android:label="@string/title_activity_ogunmoyin"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.OGUNRONBI"
+            android:label="@string/title_activity_ogunronbi"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.OGUNROTIMI"
+            android:label="@string/title_activity_ogunrotimi"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.OGUNSINA"
+            android:label="@string/title_activity_ogunsin"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.OJELADE"
+            android:label="@string/title_activity_ojelade"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.OJO"
+            android:label="@string/title_activity_ojo"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.OKEOWO"
+            android:label="@string/title_activity_okeowo"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.OKOILU"
+            android:label="@string/title_activity_okoilu"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.OLABODE"
+            android:label="@string/title_activity_olabode"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.OLADELOYE"
+            android:label="@string/title_activity_oladeloye"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.OLADIMEJI"
+            android:label="@string/title_activity_oladimeji"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.OLAITAN"
+            android:label="@string/title_activity_olaitan"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.OLANIPEKUN"
+            android:label="@string/title_activity_olanipekun"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.OLAOLUWA"
+            android:label="@string/title_activity_olaoluw"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.OLUWAFEMI"
+            android:label="@string/title_activity_oluwafemi"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.OLUWASEYI_B"
+            android:label="@string/title_activity_oluwaseyi__b"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.OMOJOLAGBE"
+            android:label="@string/title_activity_omojolagbe"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.OMOKEHINDE"
+            android:label="@string/title_activity_omokehinde"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.OMOLOLA"
+            android:label="@string/title_activity_omolol"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.ORIDUPA"
+            android:label="@string/title_activity_oridup"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.OROTAYO"
+            android:label="@string/title_activity_orotayo"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.OYEDEJI"
+            android:label="@string/title_activity_oyedeji"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.OYEJOLA"
+            android:label="@string/title_activity_oyejol"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.POPOOLA"
+            android:label="@string/title_activity_popool"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.SHITTU"
+            android:label="@string/title_activity_shittu"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.TIJANI"
+            android:label="@string/title_activity_tijani"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Chairman_Speech"
+            android:label="@string/title_activity_chairman__speech"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.ABEGUN"
+            android:label="@string/title_activity_abegun"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.ABIOYE"
+            android:label="@string/title_activity_abioye"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Details_Activity.ADEDIPE"
+            android:label="@string/title_activity_adedipe"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FireBase.Online_Chat"
+            android:label="@string/title_activity_online__chat"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.charis_united.lmd.cac16.MainActivity" />
+        </activity>
+
+    </application>
+
+</manifest>

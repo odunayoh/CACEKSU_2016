@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">CACEKSU 2016</string>
+
+
+    <string name="action_settings">Settings</string>
+
+    <string name="about_usf">About Us</string>
+    <string name="action_search" />
+    <string name="send">Send</string>
+    <string name="chairman_speech">Chairman Speech</string>
+
+    <string name="title_activity_messagechat">Online Chat</string>
+    <string name="title_activity_abiodun__kehinde__david">ABIODUN_KEHINDE_DAVID</string>
+    <string name="title_activity_adegboyeg">ADEGBOYEGA</string>
+    <string name="title_activity_adeleye">ADELEYE</string>
+    <string name="title_activity_adeniji__adedoyin">ADENIJI_ADEDOYIN</string>
+    <string name="title_activity_adeniji__stephen">ADENIJI_STEPHEN</string>
+    <string name="title_activity_adeoba__opeyemi">ADEOBA_OPEYEMI</string>
+    <string name="title_activity_adeola__damilol">ADEOLA_DAMILOLA</string>
+    <string name="title_activity_adeoti">ADEOTI</string>
+    <string name="title_activity_adesugba__adejoke">ADESUGBA_ADEJOKE</string>
+    <string name="title_activity_adeyelu">ADEYELU</string>
+    <string name="title_activity_adeyeye">ADEYEYE</string>
+    <string name="title_activity_aduloju">ADULOJU</string>
+    <string name="title_activity_afowowe">AFOWOWE</string>
+    <string name="title_activity_agbool">AGBOOLA</string>
+    <string name="title_activity_ajakaye">AJAKAYE</string>
+    <string name="title_activity_ajao">AJAO</string>
+    <string name="title_activity_ajao__idowu">AJAO_IDOWU</string>
+    <string name="title_activity_ajeigbe">AJEIGBE</string>
+    <string name="title_activity_akeju">AKEJU</string>
+    <string name="title_activity_akinbusol">AKINBUSOLA</string>
+    <string name="title_activity_akinde">AKINDE</string>
+    <string name="title_activity_akinlabi">AKINLABI</string>
+    <string name="title_activity_akinwale">AKINWALE</string>
+    <string name="title_activity_akinyele">AKINYELE</string>
+    <string name="title_activity_akomolafe">AKOMOLAFE</string>
+    <string name="title_activity_aladegbami">ALADEGBAMI</string>
+    <string name="title_activity_aladeyelu">ALADEYELU</string>
+    <string name="title_activity_alebiowu">ALEBIOWU</string>
+    <string name="title_activity_apalar">APALARA</string>
+    <string name="title_activity_apat">APATA</string>
+    <string name="title_activity_asaolu">ASAOLU</string>
+    <string name="title_activity_asogbon">ASOGBON</string>
+    <string name="title_activity_awe">AWE</string>
+    <string name="title_activity_awobusuyi">AWOBUSUYI</string>
+    <string name="title_activity_awodele">AWODELE</string>
+    <string name="title_activity_awonusi">AWONUSI</string>
+    <string name="title_activity_babalol">BABALOLA</string>
+    <string name="title_activity_bamisaye">BAMISAYE</string>
+    <string name="title_activity_dad">DADA</string>
+    <string name="title_activity_daramol">DARAMOLA</string>
+    <string name="title_activity_egbedeyi">EGBEDEYI</string>
+    <string name="title_activity_ehinfunjowo">EHINFUNJOWO</string>
+    <string name="title_activity_elehinafe">ELEHINAFE</string>
+    <string name="title_activity_elufowoju">ELUFOWOJU</string>
+    <string name="title_activity_esose">ESOSE</string>
+    <string name="title_activity_fadodun">FADODUN</string>
+    <string name="title_activity_falodun">FALODUN</string>
+    <string name="title_activity_familusi">FAMILUSI</string>
+    <string name="title_activity_fasany">FASANYA</string>
+    <string name="title_activity_fatoyinbo">FATOYINBO</string>
+    <string name="title_activity_fatoyinbo__opeyemi">FATOYINBO_OPEYEMI</string>
+    <string name="title_activity_folorunso">FOLORUNSO</string>
+    <string name="title_activity_gbajuol">GBAJUOLA</string>
+    <string name="title_activity_george">GEORGE</string>
+    <string name="title_activity_godwin">GODWIN</string>
+    <string name="title_activity_ige">IGE</string>
+    <string name="title_activity_ilumok">ILUMOKA</string>
+    <string name="title_activity_iyun">IYUN</string>
+    <string name="title_activity_kolawole">KOLAWOLE</string>
+    <string name="title_activity_libamoyo">LIBAMOYO</string>
+    <string name="title_activity_mabigun">MABIGUN</string>
+    <string name="title_activity_mogaji">MOGAJI</string>
+    <string name="title_activity_odebunmi">ODEBUNMI</string>
+    <string name="title_activity_odeyink">ODEYINKA</string>
+    <string name="title_activity_ogbiye">OGBIYE</string>
+    <string name="title_activity_ogundele">OGUNDELE</string>
+    <string name="title_activity_ogundiniyi">OGUNDINIYI</string>
+    <string name="title_activity_ogungbade">OGUNGBADE</string>
+    <string name="title_activity_ogunmoyin">OGUNMOYIN</string>
+    <string name="title_activity_ogunronbi">OGUNRONBI</string>
+    <string name="title_activity_ogunrotimi">OGUNROTIMI</string>
+    <string name="title_activity_ogunsin">OGUNSINA</string>
+    <string name="title_activity_ojelade">OJELADE</string>
+    <string name="title_activity_ojo">OJO</string>
+    <string name="title_activity_okeowo">OKEOWO</string>
+    <string name="title_activity_okoilu">OKOILU</string>
+    <string name="title_activity_olabode">OLABODE</string>
+    <string name="title_activity_oladeloye">OLADELOYE</string>
+    <string name="title_activity_oladimeji">OLADIMEJI</string>
+    <string name="title_activity_olaitan">OLAITAN</string>
+    <string name="title_activity_olanipekun">OLANIPEKUN</string>
+    <string name="title_activity_olaoluw">OLAOLUWA</string>
+    <string name="title_activity_oluwafemi">OLUWAFEMI</string>
+    <string name="title_activity_oluwaseyi__b">OLUWASEYI_B</string>
+    <string name="title_activity_omojolagbe">OMOJOLAGBE</string>
+    <string name="title_activity_omokehinde">OMOKEHINDE</string>
+    <string name="title_activity_omolol">OMOLOLA</string>
+    <string name="title_activity_oridup">ORIDUPA</string>
+    <string name="title_activity_orotayo">OROTAYO</string>
+    <string name="title_activity_oyedeji">OYEDEJI</string>
+    <string name="title_activity_oyejol">OYEJOLA</string>
+    <string name="title_activity_popool">POPOOLA</string>
+    <string name="title_activity_shittu">SHITTU</string>
+    <string name="title_activity_tijani">TIJANI</string>
+    <string name="title_activity_chairman__speech">Chairman Speech</string>
+    <string name="title_activity_abegun">ABEGUN</string>
+    <string name="title_activity_abioye">ABIOYE</string>
+    <string name="title_activity_adedipe">ADEDIPE</string>
+
+    <string name="adeyelu"> "Name;Adeyelu Olumide Samuel\n"
+                "Nickname;Olumide\n""Sex;Male\n""D.O.B;10th August\n""Home Town;Akure\n""L.G.A;Ifedore Local Government\n"
+                "State Of Origin;Ondo State\n"
+                "Home Address;20,Oluwatunmise Quarters,Oke Aro,Akure\n"
+                "Faculty;Management Science\n"
+                "Department;Accounting(Major)\n"
+                "Whatsapp/Phone Number(S);08106176609\n"
+                "E-Mail;Olumide156@Gmail.Com\n"
+                "Facebook Username;Olumide 123\n"
+                "Instagram Username;\n"
+                "Bb Pin;\n"
+                "Favourite Food;Beans\n"
+                "Favourite Colour;Red\n"</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_online__chat">Online_Chat</string>
+</resources>

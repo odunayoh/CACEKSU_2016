@@ -1,0 +1,26 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.charis_united.lmd.cac16.MainActivity">
+
+
+    <item
+        android:id="@+id/Online_Chat"
+        android:title="@string/title_activity_messagechat"
+        app:showAsAction="never" />
+
+
+
+    <item
+    android:id="@+id/chairman_speech"
+    android:title="@string/chairman_speech"
+    app:showAsAction="never" />
+
+
+
+    <item
+        android:id="@+id/about_us"
+        android:title="@string/about_usf"
+        app:showAsAction="never" />
+</menu>
